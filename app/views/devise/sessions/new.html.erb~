@@ -26,3 +26,94 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+<html><div id="label"><h3>ADVERTISEMENTS</h3></div>
+<ul id="slider1">
+<li><img border="0" src="images/img1.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img2.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img3.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img4.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img5.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img6.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img7.jpg" width="1264" height="345" /></li>
+</ul>
+<div id="label"><h3>ADVERTISEMENTS</h3></div>
+<ul id="slider2">
+<li><img border="0" src="images/img1.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img2.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img3.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img4.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img5.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img6.jpg" width="1264" height="345" /></li>
+<li><img border="0" src="images/img7.jpg" width="1264" height="345" /></li>
+</ul>
+
+</html>
+
+
+<script>
+$(document).ready(function(){
+$('#slider1') .cycle({
+fx: 'zoom', // here change effect to blindX, blindY, blindZ etc 
+speed: 'slow', 
+timeout: 5000 
+});
+
+
+$('#slider2') .cycle({
+fx: 'zoom', // here change effect to blindX, blindY, blindZ etc 
+speed: 'slow', 
+timeout: 8000 
+});
+}); 
+
+</script>
+<style>
+#slider1{
+width:20%;
+
+}
+#label{
+padding:5px;
+text-align:center;
+background: #888888; 
+}
+
+</style>
+
+<div id="label"><h3>CATOGORIAL PURPOSE</h3></div>
+
+
+<span id="m"><img border="1px" src="images/img5.jpg"  alt="jQuery Image slider" title="WOMEN LEATHER CHAPPALS" width="22%" /></a></span>
+<span id="na"><img border="1px" src="images/img2.jpg" alt="jQuery Image slider" title="MEN LEATHER CHAPPALS" width="22%"/></a></span>
+<span id="o"><img border="1px" src="images/img7.jpg"  alt="jQuery Image slider" title="HOME DECOR" width="22%"/></a></span>
+
+<span id="na"><img border="1px" src="images/img3.jpg" alt="jQuery Image slider" title="MEN LEATHER CHAPPALS" width="22%"/></a></span>
+
+
+
+<style>
+#m{
+padding-top:21%;
+margin-left:2%;
+margin-top:5%;
+margin-bottom:2%;
+}
+
+#na{
+padding-top:21%;
+margin-left:2%;
+margin-top:5%;
+margin-bottom:2%;
+}
+
+#o{
+padding-top:21%;
+margin-left:2%;
+margin-top:5%;
+margin-bottom:2%;
+}
+
+
+
+
+</style>
